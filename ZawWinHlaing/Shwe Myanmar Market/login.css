@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Mochiy+Pop+P+One&family=Open+Sans:ital,wght@1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Quicksand:wght@300;400;600;700&family=Ubuntu:ital,wght@1,300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: burlywood;
+}
+
+.container{
+    width: 500px;
+    height: 400px;
+    background-color: brown;
+    position: fixed;
+    left: 34%;
+    top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(5, 5, 5);
+}
+
+.main{
+    margin:20px;
+    color:sandybrown;
+    /* background-color: red; */
+    justify-content: center;
+    text-align: center;
+    /* text-decoration: 10px 10px 10px rgb(255, 255, 255); */
+}
+.contact{
+    width: auto;
+    height: 350px;
+    margin: 20px 20px 50px 20px;
+    padding-top:20px; 
+    position: static;
+    left: 0;
+    /* background-color: red; */
+}
+
+.main h1{
+    padding: 15px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: burlywood;
+    text-shadow: 0 0 5px rgb(232, 141, 22);
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+.main div{
+    margin: 20px 50px 20px 20px;
+}
+.main span{
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 10px rgb(0, 0, 0) ;
+}
+.contact div{
+    background-color: rgba(0, 0, 0, 0.034);
+    border-radius: 10px;
+}
+.contact div input{
+    border-radius: 5px;
+    border: 1px solid rgb(231, 231, 231);
+    height: 25px;
+    background-color: burlywood;
+}
+
+.contact button{
+    padding: 5px;
+    width: 120px;
+    background-color: black;
+    color: brown;
+    border-radius: 10px;
+}
+.contact button:hover{
+    background-color: red;
+    border: 1px solid rgb(11, 11, 11);
+    color: black;
+}
+
+.contact button:active{
+    background-color: brown;
+    color: wheat;
+}

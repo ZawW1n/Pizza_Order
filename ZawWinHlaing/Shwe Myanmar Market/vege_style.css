@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Mochiy+Pop+P+One&family=Open+Sans:ital,wght@1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Quicksand:wght@300;400;600;700&family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    height: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+body{
+    height: auto;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.main-img{
+    position: fixed;
+    display: flex;
+    top: 0;
+    z-index: 10;
+  background: rgb(156, 149, 149);
+  color: #ffffff;
+  font-weight: 400;
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.main-img h1{
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    text-shadow: 0px -4px 3px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    word-spacing: 2px;
+    margin-right: 100px;
+    border-radius: 30px;
+    background-color:rgba(4, 253, 58, 0.105);
+}
+
+.main-img span{
+    width:auto;
+    /* height: 10%; */
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.main-img span button{
+    border: 1px none ;
+    width: 115px;
+    height: 30px;
+    margin: 5px;
+    background-color: rgba(85, 250, 8, 0.779);
+    font-size: 13px;
+    padding:auto;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    transform: scale(-0.5rem);  
+}
+.main-img span button:hover{
+    background-color: #000000a6;
+    color: rgb(0, 255, 42);
+}
+.main-img span button:active{
+    background-color: rgba(107, 153, 51, 0.324);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+
+}
+
+.img-container{
+    position: absolute;
+    top: 80px;
+    right: 150px;
+    max-width: 960px;
+    margin: 0px auto 0px auto;
+    display: grid;
+    /* grid-template-columns: auto auto auto auto; */
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    gap : 1rem;
+    margin-top: 2rem;
+   
+}
+
+.images{
+    background-color: rgba(216, 221, 214, 0.105);
+    justify-content: center;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+}
+.images span h4{
+    position:relative;
+    border-radius: 30%;
+    padding: 10px;
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    text-decoration : underline overline;
+}
+
+.images span button{
+    border: none;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    cursor: cell;
+    transition: 0.5s;
+}
+
+.images span button:active{
+    background-color: rgba(255, 255, 255, 0.614);
+    color: black;
+    transform: scale(0.5rem);
+}
+.images span img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    border: none;
+    margin: 20px;
+    object-fit: cover;
+    filter: brightness(0.8);
+    box-shadow: 10px 10px 10px #fefefe02;
+}
